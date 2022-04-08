@@ -45,6 +45,8 @@ def convert_string_to_nist(msms):
 def normalized_entropy(msms):
     return(scipy.stats.entropy(convert_string_to_nist(msms)[:, 1]))
 
+def entropy_similarity_default(msms1, msms2, typeofmsms='msms'):
+    return(se.similarity(convert_string_to_nist(msms1), convert_string_to_nist(msms2), 'entropy', ms2_da = 0.05, need_clean_spectra = True, need_normalize_result = True))
 def average_entropy_calculation(data_temp, typeofmsms = "msms"):
     if len(data_temp)==1:
         # print('you just cannot calculate entropy based on 1 spectrum!!!')

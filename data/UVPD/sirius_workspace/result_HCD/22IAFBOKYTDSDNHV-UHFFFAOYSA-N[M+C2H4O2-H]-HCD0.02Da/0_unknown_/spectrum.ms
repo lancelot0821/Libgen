@@ -1,0 +1,25 @@
+>compound 
+>formula C17H16O4
+>parentmass 343.11870999395995
+>ionization [M + C2H4O2 - H]-
+>instrumentation Unknown (LCMS)
+>source file:/Users/fanzhoukong/Documents/Fiehnlab/library_generator/data/UVPD/0_unknown_/spectrum.ms
+>quality UNKNOWN
+
+>ms2peaks
+61.715578 3697.0
+65.294776 3949.0
+68.319354 4191.0
+73.612951 4728.0
+77.267499 4275.0
+141.695472 3925.0
+149.247658 3732.0
+154.744815 4835.0
+162.60859 3955.0
+164.696559 4037.0
+227.105523 14454.0
+255.100487 25728.0
+283.094671 7207.0
+323.206278 4703.0
+325.104777 11323.0
+

@@ -1,0 +1,25 @@
+>compound 
+>formula C22H28O13
+>parentmass 559.16684195685
+>ionization [M + C2H4O2 - H]-
+>instrumentation Unknown (LCMS)
+>source file:/Users/fanzhoukong/Documents/Fiehnlab/library_generator/data/UVPD/0_unknown_/spectrum.ms
+>quality UNKNOWN
+
+>ms2peaks
+65.082701 4384.0
+68.355573 4307.0
+72.992246 8181.0
+85.027952 4451.0
+86.182663 3911.0
+104.025693 508726.0
+108.020235 4143.0
+115.142359 4069.0
+120.020892 105104.0
+148.016197 722643.0
+154.746811 8715.0
+176.010553 5052087.0
+191.032641 2515750.0
+198.030875 4082.0
+266.416793 3931.0
+

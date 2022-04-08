@@ -1,0 +1,26 @@
+MTD	mzTab-version	2.0.0-M
+MTD	mzTab-ID	SIRIUS-538e0249-4bfd-4f9e-a3a0-98640ae741b0
+MTD	title	SIRIUS Analysis Report: 538e0249-4bfd-4f9e-a3a0-98640ae741b0
+MTD	software[1]	[, , SIRIUS, 4.6.1]
+MTD	cv[1]-label	MS
+MTD	cv[1]-uri	URL:https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo
+MTD	cv[1]-version	4.1.16
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	small_molecule-identification_reliability	[MS, MS:1002955, hr-ms compound identification confidence level, ]
+MTD	database[1]	[, , no database, null]
+MTD	database[1]-prefix	null
+MTD	database[1]-uri	null
+MTD	database[1]-version	Unknown
+MTD	database[2]	[, , CSI:FingerID PubChem Copy, CID]
+MTD	database[2]-prefix	CID
+MTD	database[2]-uri	https://pubchem.ncbi.nlm.nih.gov/compound/
+MTD	database[2]-version	2020-06-11
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value
+SML	1	1	null	C4H4FN3O	null	null	null	null	129.033839968	[M + H]+	4	null	null
+
+SFH	SMF_ID	SME_ID_REFS	SME_ID_REF_ambiguity_code	adduct_ion	isotopomer	exp_mass_to_charge	charge	retention_time_in_seconds	retention_time_in_seconds_start	retention_time_in_seconds_end
+SMF	1	1	2	[M + H]+	null	130.041107177734	1	null	null	null
+
+SEH	SME_ID	evidence_input_id	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	derivatized_form	adduct_ion	exp_mass_to_charge	charge	theoretical_mass_to_charge	spectra_ref	identification_method	ms_level	rank	opt_global_SIRIUS:sirius_score	opt_global_SIRIUS:isotope_score	opt_global_SIRIUS:tree_score	opt_global_SIRIUS:zodiac_score	opt_global_SIRIUS:explained_intensity_ratio	opt_global_SIRIUS:explained_intensity_of_explainable_peaks_ratio	opt_global_SIRIUS:explained_peaks_ratio	opt_global_SIRIUS:annotated_spectra_location	opt_global_SIRIUS:tree_location	opt_global_SIRIUS:candidate_location
+SME	1	0_unknown_:130.041107177734:M+H+	null	C4H4FN3O	null	null	null	null	null	[M + H]+	130.041107177734	1	130.04111642009053	null	[, , SIRIUS, 4.6.1]	[MS, MS:1000511, ms_level, 2]	1	35.52058926566901	0.0	35.52058926566901	N/A	1.0	1.0	1.0	spectra/C4H4FN3O_[M+H]+.tsv	trees/C4H4FN3O_[M+H]+.json	0_unknown_/formula_candidates.tsv

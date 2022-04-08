@@ -1,0 +1,1839 @@
+{
+  "molecularFormula" : "C20H22O8",
+  "root" : "C20H22O8",
+  "annotations" : {
+    "recalibration" : {
+      "separate" : [ "0.9999941339988448x + 9.370083615465319E-4" ],
+      "merged" : "1.0000039814912234x + -6.059218227392194E-4"
+    },
+    "numberOfUnconsideredCandidates" : 0,
+    "lowestConsideredCandidateScore" : 78.90764462266614,
+    "precursorIonType" : "[M + H]+",
+    "statistics" : {
+      "explainedIntensity" : 0.8752598752598754,
+      "explainedIntensityOfExplainablePeaks" : 0.8752598752598754,
+      "ratioOfExplainedPeaks" : 0.6724137931034483
+    },
+    "nodeBoost" : 0.0
+  },
+  "fragments" : [ {
+    "id" : 0,
+    "molecularFormula" : "C20H22O8",
+    "massDeviation" : "NaN ppm (NaN m/z)",
+    "recalibratedMassDeviation" : "NaN ppm (NaN m/z)",
+    "molecularFormula" : "C20H22O8",
+    "relativeIntensity" : 0.0,
+    "ion" : "[M + H]+",
+    "mz" : 391.13874866562,
+    "recalibratedMass" : 391.13970005929224,
+    "peaks" : [ ],
+    "score" : 6.0,
+    "scores" : {
+      "Chemical Prior" : 1.0,
+      "MS-Isotopes" : 0.0,
+      "Mass Deviation" : 0.0,
+      "CarbohydrogenCompound" : 5.0,
+      "motif-search" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "BeautificationScorer" : -0.0,
+      "IntrinsicallyChargedScorer" : 0.0,
+      "StrangeElementRootScorer" : 0.0
+    }
+  }, {
+    "id" : 1,
+    "molecularFormula" : "C20H20O7",
+    "massDeviation" : "21.245780723820815 ppm (0.007927567909462141 m/z)",
+    "recalibratedMassDeviation" : "17.891010028857817 ppm (0.006675759436348017 m/z)",
+    "molecularFormula" : "C20H20O7",
+    "relativeIntensity" : 0.4772159800249688,
+    "ion" : "[M + H]+",
+    "mz" : 373.136107,
+    "recalibratedMass" : 373.13485519152687,
+    "peaks" : [ {
+      "intensity" : 3058.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 373.136107
+    } ],
+    "score" : 3.4127531032205742,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.3278405756370166,
+      "CarbohydrogenFragment" : 0.9899062532250569,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 3.2506874256325338
+    }
+  }, {
+    "id" : 2,
+    "molecularFormula" : "C20H18O6",
+    "massDeviation" : "14.474577697613663 ppm (0.0051402519094381205 m/z)",
+    "recalibratedMassDeviation" : "11.247160635354799 ppm (0.003994109779910104 m/z)",
+    "molecularFormula" : "C20H18O6",
+    "relativeIntensity" : 0.07599875156054932,
+    "ion" : "[M + H]+",
+    "mz" : 355.122755,
+    "recalibratedMass" : 355.12160885787046,
+    "peaks" : [ {
+      "intensity" : 487.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 355.122755
+    } ],
+    "score" : 1.460731174067213,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.19598635423452623,
+      "CarbohydrogenFragment" : 0.49968680092932827,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.657030727372411
+    }
+  }, {
+    "id" : 3,
+    "molecularFormula" : "C20H16O5",
+    "massDeviation" : "-5.419862896908018 ppm (-0.0018270640904916036 m/z)",
+    "recalibratedMassDeviation" : "-8.506317942521072 ppm (-0.002867515356513195 m/z)",
+    "molecularFormula" : "C20H16O5",
+    "relativeIntensity" : 0.026997503121098627,
+    "ion" : "[M + H]+",
+    "mz" : 337.105223,
+    "recalibratedMass" : 337.104182548734,
+    "peaks" : [ {
+      "intensity" : 173.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 337.105223
+    } ],
+    "score" : 0.5904163171186626,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.14512894001675047,
+      "CarbohydrogenFragment" : 0.12512294079482023,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.1104223163405929
+    }
+  }, {
+    "id" : 4,
+    "molecularFormula" : "C19H18O5",
+    "massDeviation" : "4.29767138429465 ppm (0.0014058719094691696 m/z)",
+    "recalibratedMassDeviation" : "1.2960559989392 ppm (4.239698873789166E-4 m/z)",
+    "molecularFormula" : "C19H18O5",
+    "relativeIntensity" : 0.049781523096129834,
+    "ion" : "[M + H]+",
+    "mz" : 327.124106,
+    "recalibratedMass" : 327.1231240979779,
+    "peaks" : [ {
+      "intensity" : 319.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 327.124106
+    } ],
+    "score" : 1.2564909863661007,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.020896565942608435,
+      "CarbohydrogenFragment" : 0.3565828505781412,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.4208047017305678
+    }
+  }, {
+    "id" : 5,
+    "molecularFormula" : "C18H14O5",
+    "massDeviation" : "13.969975370551873 ppm (0.004345999909503462 m/z)",
+    "recalibratedMassDeviation" : "11.115967285942885 ppm (0.0034581202656909227 m/z)",
+    "molecularFormula" : "C18H14O5",
+    "relativeIntensity" : 0.025905118601747816,
+    "ion" : "[M + H]+",
+    "mz" : 311.095746,
+    "recalibratedMass" : 311.0948581203562,
+    "peaks" : [ {
+      "intensity" : 166.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 311.095746
+    } ],
+    "score" : 0.505373062912622,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.19350551288427542,
+      "CarbohydrogenFragment" : 0.10837285989781242,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.090505715899085
+    }
+  }, {
+    "id" : 6,
+    "molecularFormula" : "C18H12O2",
+    "massDeviation" : "-45.32753800256598 ppm (-0.01183407609050846 m/z)",
+    "recalibratedMassDeviation" : "-47.60466588880074 ppm (-0.012428558453450478 m/z)",
+    "molecularFormula" : "C18H12O2",
+    "relativeIntensity" : 0.07662297128589264,
+    "ion" : "[M + H]+",
+    "mz" : 261.079172,
+    "recalibratedMass" : 261.0785775176371,
+    "peaks" : [ {
+      "intensity" : 491.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 261.079172
+    } ],
+    "score" : 0.5884216213697784,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -1.0757271887487432,
+      "CarbohydrogenFragment" : 0.5023272286279308,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.6618215814905908
+    }
+  }, {
+    "id" : 7,
+    "molecularFormula" : "C15H14O4",
+    "massDeviation" : "-6.153653143717808 ppm (-0.001594380090523373 m/z)",
+    "recalibratedMassDeviation" : "-8.403205282106752 ppm (-0.0021772226588723242 m/z)",
+    "molecularFormula" : "C15H14O4",
+    "relativeIntensity" : 0.10424469413233459,
+    "ion" : "[M + H]+",
+    "mz" : 259.094891,
+    "recalibratedMass" : 259.09430815743167,
+    "peaks" : [ {
+      "intensity" : 668.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 259.094891
+    } ],
+    "score" : 1.8047907382273924,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.14325526264838875,
+      "CarbohydrogenFragment" : 0.5983896711032908,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.8496563297724904
+    }
+  }, {
+    "id" : 8,
+    "molecularFormula" : "C14H12O4",
+    "massDeviation" : "-0.1808223743560431 ppm (-4.4316090537677155E-5 m/z)",
+    "recalibratedMassDeviation" : "-2.2235649031731834 ppm (-5.449519321132357E-4 m/z)",
+    "molecularFormula" : "C14H12O4",
+    "relativeIntensity" : 0.05118601747815231,
+    "ion" : "[M + H]+",
+    "mz" : 245.080791,
+    "recalibratedMass" : 245.08029036415843,
+    "peaks" : [ {
+      "intensity" : 328.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 245.080791
+    } ],
+    "score" : 1.2659958862440628,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.03611565945776554,
+      "CarbohydrogenFragment" : 0.3663995378735696,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.4357120078282588
+    }
+  }, {
+    "id" : 9,
+    "molecularFormula" : "C13H12O4",
+    "massDeviation" : "5.696205545620427 ppm (0.0013276839094658044 m/z)",
+    "recalibratedMassDeviation" : "3.8502890081935632 ppm (8.974320336108121E-4 m/z)",
+    "molecularFormula" : "C13H12O4",
+    "relativeIntensity" : 0.0816167290886392,
+    "ion" : "[M + H]+",
+    "mz" : 233.082163,
+    "recalibratedMass" : 233.08173274812415,
+    "peaks" : [ {
+      "intensity" : 523.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 233.082163
+    } ],
+    "score" : 1.6583303906156597,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.06334568967772508,
+      "CarbohydrogenFragment" : 0.5225516201079978,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.699124460185387
+    }
+  }, {
+    "id" : 10,
+    "molecularFormula" : "C13H10O4",
+    "massDeviation" : "3.5346952921869144 ppm (8.167479094538521E-4 m/z)",
+    "recalibratedMassDeviation" : "1.7238518614422431 ppm (3.9832283636087595E-4 m/z)",
+    "molecularFormula" : "C13H10O4",
+    "relativeIntensity" : 0.053995006242197253,
+    "ion" : "[M + H]+",
+    "mz" : 231.066002,
+    "recalibratedMass" : 231.0655835749269,
+    "peaks" : [ {
+      "intensity" : 346.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 231.066002
+    } ],
+    "score" : 1.321760989492774,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.027888542212869835,
+      "CarbohydrogenFragment" : 0.38508557465566406,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.4645639570499798
+    }
+  }, {
+    "id" : 11,
+    "molecularFormula" : "C13H9O4",
+    "massDeviation" : "0.5249988348781695 ppm (1.2077990948000661E-4 m/z)",
+    "recalibratedMassDeviation" : "-1.2680730923490913 ppm (-2.917291782580378E-4 m/z)",
+    "molecularFormula" : "C13H9O4",
+    "relativeIntensity" : 0.01451310861423221,
+    "ion" : "[M + H]+",
+    "mz" : 230.057481,
+    "recalibratedMass" : 230.05706849091226,
+    "peaks" : [ {
+      "intensity" : 93.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 230.057481
+    } ],
+    "score" : 0.3013444788979493,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.020440847707544032,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.8217853266054933
+    }
+  }, {
+    "id" : 12,
+    "molecularFormula" : "C16H10O",
+    "massDeviation" : "-13.22541798508448 ppm (-0.002897392090545736 m/z)",
+    "recalibratedMassDeviation" : "-14.81438011770185 ppm (-0.0032454928551715057 m/z)",
+    "molecularFormula" : "C16H10O",
+    "relativeIntensity" : 1.0,
+    "ion" : "[M + H]+",
+    "mz" : 219.077544,
+    "recalibratedMass" : 219.07719589923536,
+    "peaks" : [ {
+      "intensity" : 6408.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 219.077544
+    } ],
+    "score" : 11.760883930742393,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.2652548492479933,
+      "CarbohydrogenFragment" : 1.1386558295033224,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 11.387482950487064
+    }
+  }, {
+    "id" : 13,
+    "molecularFormula" : "C12H9O4",
+    "massDeviation" : "-3.9311833342730873 ppm (-8.572200905234695E-4 m/z)",
+    "recalibratedMassDeviation" : "-5.500103379717054 ppm (-0.0011993314274718614 m/z)",
+    "molecularFormula" : "C12H9O4",
+    "relativeIntensity" : 0.025436953807740324,
+    "ion" : "[M + H]+",
+    "mz" : 218.056503,
+    "recalibratedMass" : 218.05616088866304,
+    "peaks" : [ {
+      "intensity" : 163.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 218.056503
+    } ],
+    "score" : 0.5910085310172686,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.09166831078614616,
+      "CarbohydrogenFragment" : 0.10092935917619017,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.0817474826272246
+    }
+  }, {
+    "id" : 14,
+    "molecularFormula" : "C12H8O4",
+    "massDeviation" : "-7.289578494839727 ppm (-0.0015821880905377839 m/z)",
+    "recalibratedMassDeviation" : "-8.838536447622044 ppm (-0.0019183832719988914 m/z)",
+    "molecularFormula" : "C12H8O4",
+    "relativeIntensity" : 0.03870162297128589,
+    "ion" : "[M + H]+",
+    "mz" : 217.047953,
+    "recalibratedMass" : 217.04761680481855,
+    "peaks" : [ {
+      "intensity" : 248.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 217.047953
+    } ],
+    "score" : 0.9031504840756247,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.15118518576160964,
+      "CarbohydrogenFragment" : 0.26502713346540596,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.2893085363718284
+    }
+  }, {
+    "id" : 15,
+    "molecularFormula" : "C12H7O4",
+    "massDeviation" : "13.570546727530676 ppm (0.0029318439094936366 m/z)",
+    "recalibratedMassDeviation" : "12.041669281368963 ppm (0.0026015341514948886 m/z)",
+    "molecularFormula" : "C12H7O4",
+    "relativeIntensity" : 0.016853932584269662,
+    "ion" : "[M + H]+",
+    "mz" : 216.044642,
+    "recalibratedMass" : 216.044311690242,
+    "peaks" : [ {
+      "intensity" : 108.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 216.044642
+    } ],
+    "score" : 0.17829179569070594,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.2111109183564245,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.8894027140471304
+    }
+  }, {
+    "id" : 16,
+    "molecularFormula" : "C11H7O4",
+    "massDeviation" : "7.615266875346995 ppm (0.0015538439094768819 m/z)",
+    "recalibratedMassDeviation" : "6.341478133376184 ppm (0.0012939342487072736 m/z)",
+    "molecularFormula" : "C11H7O4",
+    "relativeIntensity" : 0.027933832709113607,
+    "ion" : "[M + H]+",
+    "mz" : 204.043264,
+    "recalibratedMass" : 204.04300409033922,
+    "peaks" : [ {
+      "intensity" : 179.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 204.043264
+    } ],
+    "score" : 0.6593980866348097,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.1063884915667164,
+      "CarbohydrogenFragment" : 0.1388374859312771,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.126949092270249
+    }
+  }, {
+    "id" : 17,
+    "molecularFormula" : "C14H18O",
+    "massDeviation" : "-6.638952696565097 ppm (-0.0013486480905271492 m/z)",
+    "recalibratedMassDeviation" : "-7.892378569257694 ppm (-0.0016032691347902528 m/z)",
+    "molecularFormula" : "C14H18O",
+    "relativeIntensity" : 0.05571161048689138,
+    "ion" : "[M + H]+",
+    "mz" : 203.141693,
+    "recalibratedMass" : 203.14143837895574,
+    "peaks" : [ {
+      "intensity" : 357.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 203.141693
+    } ],
+    "score" : 2.1078973710318234,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.8643716994351607,
+      "Mass Deviation" : -0.1340150387413642,
+      "CarbohydrogenFragment" : 0.3959326067535749,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.4816081035844522
+    }
+  }, {
+    "id" : 18,
+    "molecularFormula" : "C11H6O4",
+    "massDeviation" : "-5.28054591127168 ppm (-0.0010721240905411378 m/z)",
+    "recalibratedMassDeviation" : "-6.531496480221844 ppm (-0.0013261064445941884 m/z)",
+    "molecularFormula" : "C11H6O4",
+    "relativeIntensity" : 0.026061173533083647,
+    "ion" : "[M + H]+",
+    "mz" : 203.032813,
+    "recalibratedMass" : 203.03255901764595,
+    "peaks" : [ {
+      "intensity" : 167.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 203.032813
+    } ],
+    "score" : 0.5944736326298526,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.10973890327369762,
+      "CarbohydrogenFragment" : 0.11081777075918908,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.0933947651443612
+    }
+  }, {
+    "id" : 19,
+    "molecularFormula" : "C12H9O3",
+    "massDeviation" : "41.358770220114586 ppm (0.008357399909471042 m/z)",
+    "recalibratedMassDeviation" : "40.129848313677655 ppm (0.008109060707198523 m/z)",
+    "molecularFormula" : "C12H9O3",
+    "relativeIntensity" : 0.05259051186017478,
+    "ion" : "[M + H]+",
+    "mz" : 202.070803,
+    "recalibratedMass" : 202.07055466079774,
+    "peaks" : [ {
+      "intensity" : 337.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 202.070803
+    } ],
+    "score" : 0.4639292125791519,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.862257852908275,
+      "CarbohydrogenFragment" : 0.3758941956010309,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.450292869886396
+    }
+  }, {
+    "id" : 20,
+    "molecularFormula" : "C11H10O3",
+    "massDeviation" : "15.04328569825282 ppm (0.0028743679094986874 m/z)",
+    "recalibratedMassDeviation" : "14.081223032435535 ppm (0.002690540981745926 m/z)",
+    "molecularFormula" : "C11H10O3",
+    "relativeIntensity" : 0.07958801498127341,
+    "ion" : "[M + H]+",
+    "mz" : 191.073145,
+    "recalibratedMass" : 191.07296117307226,
+    "peaks" : [ {
+      "intensity" : 510.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 191.073145
+    } ],
+    "score" : 1.5495743176722645,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.23839926437384198,
+      "CarbohydrogenFragment" : 0.5145217776008157,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.08926854999999989,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.6841832544452908
+    }
+  }, {
+    "id" : 21,
+    "molecularFormula" : "C11H8O3",
+    "massDeviation" : "32.8647228409383 ppm (0.006213431909486644 m/z)",
+    "recalibratedMassDeviation" : "31.95487171801133 ppm (0.006041409200406633 m/z)",
+    "molecularFormula" : "C11H8O3",
+    "relativeIntensity" : 0.6924157303370787,
+    "ion" : "[M + H]+",
+    "mz" : 189.060834,
+    "recalibratedMass" : 189.06066197729092,
+    "peaks" : [ {
+      "intensity" : 4437.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 189.060834
+    } ],
+    "score" : 4.087361664516934,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.6055943641977819,
+      "CarbohydrogenFragment" : 1.06770827316425,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.10939166,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 4.0158560955504665
+    }
+  }, {
+    "id" : 22,
+    "molecularFormula" : "C14H16",
+    "massDeviation" : "-9.052864685318994 ppm (-0.0016759640905377182 m/z)",
+    "recalibratedMassDeviation" : "-9.857542235680965 ppm (-0.0018249332215134473 m/z)",
+    "molecularFormula" : "C14H16",
+    "relativeIntensity" : 0.020131086142322098,
+    "ion" : "[M + H]+",
+    "mz" : 185.130801,
+    "recalibratedMass" : 185.13065203086902,
+    "peaks" : [ {
+      "intensity" : 129.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 185.130801
+    } ],
+    "score" : 2.034594979968076,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 1.5682750735426705,
+      "Mass Deviation" : -0.15642507069019668,
+      "CarbohydrogenFragment" : 0.0028115978236764594,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.1486919900000001,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.971241389291925
+    }
+  }, {
+    "id" : 23,
+    "molecularFormula" : "C14H10",
+    "massDeviation" : "-21.441455878979113 ppm (-0.003839772090543647 m/z)",
+    "recalibratedMassDeviation" : "-22.075175207719557 ppm (-0.0039532571118172655 m/z)",
+    "molecularFormula" : "C14H10",
+    "relativeIntensity" : 0.039794007490636704,
+    "ion" : "[M + H]+",
+    "mz" : 179.081687,
+    "recalibratedMass" : 179.08157351497871,
+    "peaks" : [ {
+      "intensity" : 255.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 179.081687
+    } ],
+    "score" : 0.9208425256611179,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.367298998796786,
+      "CarbohydrogenFragment" : 0.27539527951688414,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.20918313000000022,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.3035631149410196
+    }
+  }, {
+    "id" : 24,
+    "molecularFormula" : "C10H8O3",
+    "massDeviation" : "12.286633208240255 ppm (0.0021754319094782204 m/z)",
+    "recalibratedMassDeviation" : "11.712773178579884 ppm (0.0020738249011742482 m/z)",
+    "molecularFormula" : "C10H8O3",
+    "relativeIntensity" : 0.04931335830212235,
+    "ion" : "[M + H]+",
+    "mz" : 177.056796,
+    "recalibratedMass" : 177.0566943929917,
+    "peaks" : [ {
+      "intensity" : 316.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 177.056796
+    } ],
+    "score" : 1.3189553577714659,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.1794722325116868,
+      "CarbohydrogenFragment" : 0.35323557310446363,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.22943204000000006,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.415759977178689
+    }
+  }, {
+    "id" : 25,
+    "molecularFormula" : "C10H7O3",
+    "massDeviation" : "14.31112588802179 ppm (0.002519463909465003 m/z)",
+    "recalibratedMassDeviation" : "13.767552025794616 ppm (0.0024237667858528766 m/z)",
+    "molecularFormula" : "C10H7O3",
+    "relativeIntensity" : 0.06367041198501873,
+    "ion" : "[M + H]+",
+    "mz" : 176.049315,
+    "recalibratedMass" : 176.0492193028764,
+    "peaks" : [ {
+      "intensity" : 408.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 176.049315
+    } ],
+    "score" : 1.523894494759617,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.2125890669844092,
+      "CarbohydrogenFragment" : 0.44139981049154264,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.23950684999999994,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.5555769012524836
+    }
+  }, {
+    "id" : 26,
+    "molecularFormula" : "C10H6O3",
+    "massDeviation" : "-4.20767551005807 ppm (-7.365040905256137E-4 m/z)",
+    "recalibratedMassDeviation" : "-4.720515150843592 ppm (-8.262702118315701E-4 m/z)",
+    "molecularFormula" : "C10H6O3",
+    "relativeIntensity" : 0.018570536828963796,
+    "ion" : "[M + H]+",
+    "mz" : 175.038234,
+    "recalibratedMass" : 175.03814423387868,
+    "peaks" : [ {
+      "intensity" : 119.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 175.038234
+    } ],
+    "score" : 0.6153636227627718,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.06812027202081739,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.24961766000000019,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.933866234783589
+    }
+  }, {
+    "id" : 27,
+    "molecularFormula" : "C13H16",
+    "massDeviation" : "-4.181578930385126 ppm (-7.239640905254419E-4 m/z)",
+    "recalibratedMassDeviation" : "-4.635470631091857 ppm (-8.025467920731444E-4 m/z)",
+    "molecularFormula" : "C13H16",
+    "relativeIntensity" : 0.015137328339575531,
+    "ion" : "[M + H]+",
+    "mz" : 173.131753,
+    "recalibratedMass" : 173.13167441729846,
+    "peaks" : [ {
+      "intensity" : 97.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 173.131753
+    } ],
+    "score" : 0.5432976731807544,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.06610272771571422,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.2686824699999999,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.8407179308964687
+    }
+  }, {
+    "id" : 28,
+    "molecularFormula" : "C13H12",
+    "massDeviation" : "-4.712207568838673 ppm (-7.968360905294958E-4 m/z)",
+    "recalibratedMassDeviation" : "-5.0370734241379935 ppm (-8.517707533997054E-4 m/z)",
+    "molecularFormula" : "C13H12",
+    "relativeIntensity" : 0.017946317103620473,
+    "ion" : "[M + H]+",
+    "mz" : 169.10038,
+    "recalibratedMass" : 169.10032506533713,
+    "peaks" : [ {
+      "intensity" : 115.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 169.10038
+    } ],
+    "score" : 0.6568387945617147,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.07029305682801718,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.30899619999999994,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.9181356513897319
+    }
+  }, {
+    "id" : 29,
+    "molecularFormula" : "C13H10",
+    "massDeviation" : "-42.42182374309044 ppm (-0.007087772090528688 m/z)",
+    "recalibratedMassDeviation" : "-42.67964152776476 ppm (-0.007130846045157568 m/z)",
+    "molecularFormula" : "C13H10",
+    "relativeIntensity" : 0.04369538077403246,
+    "ion" : "[M + H]+",
+    "mz" : 167.078439,
+    "recalibratedMass" : 167.07839592604537,
+    "peaks" : [ {
+      "intensity" : 280.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 167.078439
+    } ],
+    "score" : 0.7481848711431064,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.7427715408520373,
+      "CarbohydrogenFragment" : 0.309780949355001,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.3292156099999999,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.3519598526401428
+    }
+  }, {
+    "id" : 30,
+    "molecularFormula" : "C13H8",
+    "massDeviation" : "0.18956761922579335 ppm (3.129190946538074E-5 m/z)",
+    "recalibratedMassDeviation" : "0.0 ppm (0.0 m/z)",
+    "molecularFormula" : "C13H8",
+    "relativeIntensity" : 0.07974406991260924,
+    "ion" : "[M + H]+",
+    "mz" : 165.069908,
+    "recalibratedMass" : 165.06987670809053,
+    "peaks" : [ {
+      "intensity" : 511.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 165.069908
+    } ],
+    "score" : 2.0497918347226873,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : 0.0,
+      "CarbohydrogenFragment" : 0.5151482476693501,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.3493009200000001,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.685342667053337
+    }
+  }, {
+    "id" : 31,
+    "molecularFormula" : "C13H7",
+    "massDeviation" : "-30.627618837248257 ppm (-0.005024676090528146 m/z)",
+    "recalibratedMassDeviation" : "-30.782145157478062 ppm (-0.005050026438880195 m/z)",
+    "molecularFormula" : "C13H7",
+    "relativeIntensity" : 0.015761548064918852,
+    "ion" : "[M + H]+",
+    "mz" : 164.057027,
+    "recalibratedMass" : 164.05700164965165,
+    "peaks" : [ {
+      "intensity" : 101.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 164.057027
+    } ],
+    "score" : 0.2299130017935137,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.488482143825378,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.35942973,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.8589654156188917
+    }
+  }, {
+    "id" : 32,
+    "molecularFormula" : "C10H8O2",
+    "massDeviation" : "-1.4960194394651938 ppm (-2.40948090549864E-4 m/z)",
+    "recalibratedMassDeviation" : "-1.544241741528111 ppm (-2.487147367276066E-4 m/z)",
+    "molecularFormula" : "C10H8O2",
+    "relativeIntensity" : 0.035892634207240946,
+    "ion" : "[M + H]+",
+    "mz" : 161.059465,
+    "recalibratedMass" : 161.0594572333538,
+    "peaks" : [ {
+      "intensity" : 230.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 161.059465
+    } ],
+    "score" : 1.3570589177986285,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.020042025427040595,
+      "CarbohydrogenFragment" : 0.2366465022501527,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.3894053500000001,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.2510490909755163
+    }
+  }, {
+    "id" : 33,
+    "molecularFormula" : "C9H6O2",
+    "massDeviation" : "-16.72917159129046 ppm (-0.002459884090541209 m/z)",
+    "recalibratedMassDeviation" : "-16.222761163444478 ppm (-0.00238542190098201 m/z)",
+    "molecularFormula" : "C9H6O2",
+    "relativeIntensity" : 0.016853932584269662,
+    "ion" : "[M + H]+",
+    "mz" : 147.041596,
+    "recalibratedMass" : 147.04167046218956,
+    "peaks" : [ {
+      "intensity" : 108.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 147.041596
+    } ],
+    "score" : 0.7100673045995997,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.20891944944753085,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.52958404,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.8894027140471304
+    }
+  }, {
+    "id" : 34,
+    "molecularFormula" : "C11H12",
+    "massDeviation" : "23.756402893614325 ppm (0.0034471639094704187 m/z)",
+    "recalibratedMassDeviation" : "24.34785461681397 ppm (0.0035329883790211625 m/z)",
+    "molecularFormula" : "C11H12",
+    "relativeIntensity" : 0.0149812734082397,
+    "ion" : "[M + H]+",
+    "mz" : 145.104624,
+    "recalibratedMass" : 145.10470982446955,
+    "peaks" : [ {
+      "intensity" : 96.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 145.104624
+    } ],
+    "score" : 1.9697177776962471,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 1.4078640160603104,
+      "Mass Deviation" : -0.3231511739553591,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.5489537600000001,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.8360511755912956
+    }
+  }, {
+    "id" : 35,
+    "molecularFormula" : "C11H10",
+    "massDeviation" : "0.2531905296125737 ppm (3.622790947588328E-5 m/z)",
+    "recalibratedMassDeviation" : "0.935776461115201 ppm (1.3389619317649704E-4 m/z)",
+    "molecularFormula" : "C11H10",
+    "relativeIntensity" : 0.02887016229712859,
+    "ion" : "[M + H]+",
+    "mz" : 143.085563,
+    "recalibratedMass" : 143.0856606682837,
+    "peaks" : [ {
+      "intensity" : 185.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 143.085563
+    } ],
+    "score" : 1.3534153844724237,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.010740524801996353,
+      "CarbohydrogenFragment" : 0.1520043989164186,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.5691443699999998,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.1430071403580015
+    }
+  }, {
+    "id" : 36,
+    "molecularFormula" : "C11H8",
+    "massDeviation" : "26.83202417670488 ppm (0.003785291909480293 m/z)",
+    "recalibratedMassDeviation" : "27.60798103144025 ppm (0.0038947620067801836 m/z)",
+    "molecularFormula" : "C11H8",
+    "relativeIntensity" : 0.02762172284644195,
+    "ion" : "[M + H]+",
+    "mz" : 141.073662,
+    "recalibratedMass" : 141.0737714700973,
+    "peaks" : [ {
+      "intensity" : 177.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 141.073662
+    } ],
+    "score" : 0.9840069518052161,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.3610790381756119,
+      "CarbohydrogenFragment" : 0.1343288454809961,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.5892633799999998,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.1214937644998322
+    }
+  }, {
+    "id" : 37,
+    "molecularFormula" : "C9H8O",
+    "massDeviation" : "40.46490409291934 ppm (0.005384671909467897 m/z)",
+    "recalibratedMassDeviation" : "41.640314292182374 ppm (0.005541090464873832 m/z)",
+    "molecularFormula" : "C9H8O",
+    "relativeIntensity" : 0.017478152309612985,
+    "ion" : "[M + H]+",
+    "mz" : 133.070176,
+    "recalibratedMass" : 133.0703324185554,
+    "peaks" : [ {
+      "intensity" : 112.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 133.070176
+    } ],
+    "score" : 1.3022234603673901,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.7724907476055751,
+      "Mass Deviation" : -0.5455823352873406,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.66929824,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.9060168080491554
+    }
+  }, {
+    "id" : 38,
+    "molecularFormula" : "C10H9",
+    "massDeviation" : "-76.01988367801526 ppm (-0.009887740090533725 m/z)",
+    "recalibratedMassDeviation" : "-74.68178622007598 ppm (-0.009713709676162807 m/z)",
+    "molecularFormula" : "C10H9",
+    "relativeIntensity" : 0.0149812734082397,
+    "ion" : "[M + H]+",
+    "mz" : 130.067814,
+    "recalibratedMass" : 130.06798803041437,
+    "peaks" : [ {
+      "intensity" : 96.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 130.067814
+    } ],
+    "score" : -0.06916604050986108,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -1.1045390761011566,
+      "CarbohydrogenFragment" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.69932186,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 0.8360511755912956
+    }
+  }, {
+    "id" : 39,
+    "molecularFormula" : "C10H7",
+    "massDeviation" : "2.2748600614412533 ppm (2.9132390946529085E-4 m/z)",
+    "recalibratedMassDeviation" : "3.7256676369973403 ppm (4.7711841904174435E-4 m/z)",
+    "molecularFormula" : "C10H7",
+    "relativeIntensity" : 0.039637952559300874,
+    "ion" : "[M + H]+",
+    "mz" : 128.062343,
+    "recalibratedMass" : 128.06252879450957,
+    "peaks" : [ {
+      "intensity" : 254.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 128.062343
+    } ],
+    "score" : 1.756061757796537,
+    "scores" : {
+      "TreeSizeScorer" : -0.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.0,
+      "Mass Deviation" : -0.038797070669828994,
+      "CarbohydrogenFragment" : 0.2739354325666341,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.7193765700000001,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 1.3015468258997318
+    }
+  } ],
+  "losses" : [ {
+    "source" : 0,
+    "target" : 1,
+    "molecularFormula" : "H2O",
+    "score" : 1.5212693642721977,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.03198639835991379,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.4776564237534635,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 1,
+    "target" : 2,
+    "molecularFormula" : "H2O",
+    "score" : 1.522828739352961,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.033545773440676996,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.4776564237534635,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 2,
+    "target" : 3,
+    "molecularFormula" : "H2O",
+    "score" : 1.5234367695042421,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.03415380359195819,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.4776564237534635,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 2,
+    "target" : 4,
+    "molecularFormula" : "CO",
+    "score" : 1.368520266032037,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.8782230187274189,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.4786707051457979,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 3,
+    "target" : 5,
+    "molecularFormula" : "C2H2",
+    "score" : 0.9970446835146373,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.7804029242149939,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.20501521714082305,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 5,
+    "target" : 6,
+    "molecularFormula" : "H2O3",
+    "score" : -1.6419124383205463,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 1.0412656454570683,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -2.694804625936435,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 4,
+    "target" : 7,
+    "molecularFormula" : "C4H4O",
+    "score" : -1.3866553523211307,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.6907451949755483,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -2.089027089455499,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 5,
+    "target" : 8,
+    "molecularFormula" : "C4H2O",
+    "score" : -1.9448336058578306,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.7383444779197843,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -2.694804625936435,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 7,
+    "target" : 9,
+    "molecularFormula" : "C2H2",
+    "score" : 0.9972252975414012,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.7805835382417579,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.20501521714082305,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 7,
+    "target" : 10,
+    "molecularFormula" : "C2H4",
+    "score" : -0.19561003308327218,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.8795267000873253,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -0.9814027596715915,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 8,
+    "target" : 11,
+    "molecularFormula" : "CH3",
+    "score" : 0.9583014183141525,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.494899249150043,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.5469346409632014,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 6,
+    "target" : 12,
+    "molecularFormula" : "C2H2O",
+    "score" : -0.38656449207762744,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 1.1055256532671942,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -1.503716687503642,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 9,
+    "target" : 13,
+    "molecularFormula" : "CH3",
+    "score" : 0.958802181280684,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.49439848618351157,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.5469346409632014,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 9,
+    "target" : 14,
+    "molecularFormula" : "CH4",
+    "score" : 0.30945640053562606,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.2931773094275929,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.5910071678043987,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 10,
+    "target" : 15,
+    "molecularFormula" : "CH3",
+    "score" : 0.95788577267571,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.49531489478848556,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.5469346409632014,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 11,
+    "target" : 16,
+    "molecularFormula" : "C2H2",
+    "score" : 0.9973079968716686,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.7806662375720252,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.20501521714082305,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 4,
+    "target" : 17,
+    "molecularFormula" : "C5O4",
+    "score" : -3.5482876181636103,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.8651095343859954,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -2.694804625936435,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 13,
+    "target" : 18,
+    "molecularFormula" : "CH3",
+    "score" : 0.9583824033670492,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.49481826409714635,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.5469346409632014,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 11,
+    "target" : 19,
+    "molecularFormula" : "CO",
+    "score" : 1.3680027619755442,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.8777055146709261,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.4786707051457979,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 8,
+    "target" : 20,
+    "molecularFormula" : "C3H2O",
+    "score" : -0.0025641562871324686,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.9821320945871594,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -0.9963227930331122,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 14,
+    "target" : 21,
+    "molecularFormula" : "CO",
+    "score" : 1.368021840634213,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.877724593329595,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.4786707051457979,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 17,
+    "target" : 22,
+    "molecularFormula" : "H2O",
+    "score" : 1.5224707569163656,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.033187791004081646,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.4776564237534635,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 8,
+    "target" : 23,
+    "molecularFormula" : "H2O4",
+    "score" : -1.9444649386970685,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.7387131450805464,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -2.694804625936435,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 10,
+    "target" : 24,
+    "molecularFormula" : "C3H2O",
+    "score" : -0.0025899543985093976,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.9821062964757825,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -0.9963227930331122,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 16,
+    "target" : 25,
+    "molecularFormula" : "CO",
+    "score" : 1.3683171820949505,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.8780199347903324,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.4786707051457979,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 18,
+    "target" : 26,
+    "molecularFormula" : "CO",
+    "score" : 1.3683444111983305,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.8780471638937124,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.4786707051457979,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 17,
+    "target" : 27,
+    "molecularFormula" : "CH2O",
+    "score" : -1.6975823716638365,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.954423391439768,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -2.5582717896045986,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 22,
+    "target" : 28,
+    "molecularFormula" : "CH4",
+    "score" : 0.30874886197103646,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.2938848479921825,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.5910071678043987,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 28,
+    "target" : 29,
+    "molecularFormula" : "H2",
+    "score" : -0.5622071529115278,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -13.352567497841054,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 12.778733802770706,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 12,
+    "target" : 30,
+    "molecularFormula" : "C3H2O",
+    "score" : -0.0025639909208322598,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.9821322599534597,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -0.9963227930331122,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 23,
+    "target" : 31,
+    "molecularFormula" : "CH3",
+    "score" : 0.958589109799697,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.4946115576644985,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.5469346409632014,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 21,
+    "target" : 32,
+    "molecularFormula" : "CO",
+    "score" : 1.368637738690007,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.8783404913853889,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.4786707051457979,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 26,
+    "target" : 33,
+    "molecularFormula" : "CO",
+    "score" : 1.3684333872454526,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.8781361399408345,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.4786707051457979,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 27,
+    "target" : 34,
+    "molecularFormula" : "C2H4",
+    "score" : -0.19568576800328485,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.8794509651673126,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -0.9814027596715915,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 28,
+    "target" : 35,
+    "molecularFormula" : "C2H2",
+    "score" : 0.9973413166788468,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.7806995573792035,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.20501521714082305,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 29,
+    "target" : 36,
+    "molecularFormula" : "C2H2",
+    "score" : 0.9967834398684549,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.7801416805688115,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.20501521714082305,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 32,
+    "target" : 37,
+    "molecularFormula" : "CO",
+    "score" : 1.3681157037952443,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.8778184564906262,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 0.4786707051457979,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 34,
+    "target" : 38,
+    "molecularFormula" : "CH3",
+    "score" : 0.9611760087234262,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.4920246587407693,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.5469346409632014,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  }, {
+    "source" : 35,
+    "target" : 39,
+    "molecularFormula" : "CH3",
+    "score" : 0.9582822370438,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : -0.4949184304203955,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : -0.09373397349900595,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : 1.5469346409632014,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  } ]
+}

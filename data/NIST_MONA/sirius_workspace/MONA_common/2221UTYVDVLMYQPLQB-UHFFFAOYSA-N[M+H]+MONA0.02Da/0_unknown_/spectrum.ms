@@ -1,0 +1,25 @@
+>compound 
+>formula C10H11NO3
+>parentmass 194.081176757813
+>ionization [M + H]+
+>instrumentation Unknown (LCMS)
+>source file:/Users/fanzhoukong/Documents/GitHub/Libgen/data/NIST_MONA/0_unknown_/spectrum.ms
+>quality UNKNOWN
+
+>ms2peaks
+41.03806 1.931387
+65.03938 27.894446
+77.03718 2.103973
+89.04001 1.617833
+91.0557 100.0
+107.0515 1.459739
+151.0515 1.094804
+152.0635 1.314819
+165.0697 3.031461
+167.0772 2.948461
+178.0653 3.289682
+179.0761 9.328889
+192.0843 8.667527
+193.0909 14.320721
+194.1001 5.53067
+

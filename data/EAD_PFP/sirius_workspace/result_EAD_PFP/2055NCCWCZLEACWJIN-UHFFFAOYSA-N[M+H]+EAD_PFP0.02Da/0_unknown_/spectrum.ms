@@ -1,0 +1,26 @@
+>compound 
+>formula C9H10O4
+>parentmass 183.06518980058
+>ionization [M + H]+
+>instrumentation Unknown (LCMS)
+>source file:/Users/fanzhoukong/Documents/GitHub/Libgen/data/EAD_PFP/0_unknown_/spectrum.ms
+>quality UNKNOWN
+
+>ms2peaks
+67.053453 22.0
+68.999816 154.0
+103.672237 22.0
+113.684952 22.0
+115.057374 36.0
+121.027813 270.0
+121.053683 181.0
+122.035404 695.0
+123.046086 11440.0
+124.053297 1553.0
+124.922239 33.0
+135.286204 87.0
+150.015446 98.0
+150.033446 128.0
+150.546247 726.0
+151.046697 42129.0
+

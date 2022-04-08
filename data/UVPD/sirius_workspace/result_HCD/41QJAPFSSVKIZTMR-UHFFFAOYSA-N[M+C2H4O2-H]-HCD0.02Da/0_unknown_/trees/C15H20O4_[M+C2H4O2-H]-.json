@@ -1,0 +1,93 @@
+{
+  "molecularFormula" : "C13H16O2",
+  "root" : "C13H16O2",
+  "annotations" : {
+    "precursorIonType" : "[M + C2H4O2 - H]-",
+    "statistics" : {
+      "explainedIntensity" : 0.10222333667669678,
+      "explainedIntensityOfExplainablePeaks" : 1.0,
+      "ratioOfExplainedPeaks" : 0.125
+    },
+    "treeType" : "neutralized",
+    "nodeBoost" : 3.0,
+    "numberOfUnconsideredCandidates" : 0,
+    "lowestConsideredCandidateScore" : 12.410122066282911,
+    "recalibration" : {
+      "merged" : "1.0x"
+    }
+  },
+  "fragments" : [ {
+    "id" : 0,
+    "molecularFormula" : "C13H16O2",
+    "massDeviation" : "NaN ppm (NaN m/z)",
+    "recalibratedMassDeviation" : "NaN ppm (NaN m/z)",
+    "implicitAdduct" : "C2H4O2",
+    "score" : 6.0,
+    "scores" : {
+      "Chemical Prior" : 1.0,
+      "MS-Isotopes" : 0.0,
+      "Mass Deviation" : 0.0,
+      "CarbohydrogenCompound" : 5.0,
+      "motif-search" : 0.0,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "BeautificationScorer" : -0.0,
+      "IntrinsicallyChargedScorer" : 0.0,
+      "StrangeElementRootScorer" : 0.0
+    },
+    "molecularFormula" : "C13H16O2",
+    "relativeIntensity" : 0.0,
+    "ion" : "[M - H]-",
+    "mz" : 263.12888075482,
+    "recalibratedMass" : 263.12888075482,
+    "peaks" : [ ]
+  }, {
+    "id" : 1,
+    "molecularFormula" : "C9H12",
+    "massDeviation" : "123.93627974993188 ppm (0.02220070009053643 m/z)",
+    "recalibratedMassDeviation" : "123.93627974993188 ppm (0.02220070009053643 m/z)",
+    "implicitAdduct" : "C2H4O2",
+    "score" : 7.796095733303458,
+    "scores" : {
+      "TreeSizeScorer" : 2.5,
+      "StrangeElementFragmentScorer" : 0.0,
+      "StrangeElementSmallFragmentScorer" : 0.0,
+      "Common Fragments" : 0.324284091120139,
+      "Mass Deviation" : -0.624767379387661,
+      "CarbohydrogenFragment" : 1.0851059674195027,
+      "MS2-Isotopes" : 0.0,
+      "FragmentSizeScorer" : 0.20870045999999998,
+      "PhosphorScorer" : 0.0,
+      "ClippedPeakIsNoiseScorer" : 4.302772594151477
+    },
+    "molecularFormula" : "C9H12",
+    "relativeIntensity" : 0.7557157569515963,
+    "ion" : "[M - H]-",
+    "mz" : 179.129954,
+    "recalibratedMass" : 179.129954,
+    "peaks" : [ {
+      "intensity" : 3669.0,
+      "ce" : "none",
+      "spectrum" : 0,
+      "mz" : 179.129954
+    } ]
+  } ],
+  "losses" : [ {
+    "source" : 0,
+    "target" : 1,
+    "molecularFormula" : "C4H4O2",
+    "score" : -1.385973667020549,
+    "scores" : {
+      "StrangeElementLossScorer" : 0.0,
+      "LossSizeScorer" : 0.27550435357179826,
+      "Loss RDBE" : 0.0,
+      "Free Radical" : 0.011626542158820332,
+      "PureCarbonNitrogenLossScorer" : 0.0,
+      "CommonLossEdgeScorer" : -1.6731045627511674,
+      "MS2-Isotopes" : 0.0,
+      "PhosphorScorer" : 0.0,
+      "AdductSwitchLossScorer" : 0.0,
+      "MultimereLossScorer" : 0.0
+    }
+  } ]
+}
