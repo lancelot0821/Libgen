@@ -9,7 +9,7 @@ import numpy as np
 
 from matplotlib import rcParams
 
-import spectra_operations as so
+import toolsets.spectra_operations as so
 
 import matplotlib.pyplot as plt
 

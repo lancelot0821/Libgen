@@ -7,7 +7,7 @@
 from sklearn.linear_model import LinearRegression
 import numpy as np
 import pandas as pd
-import spectra_operations as so
+import toolsets.spectra_operations as so
 def mass_fitting(mass_measured, lm_temp):
     mass_cali = lm_temp.predict(np.array(mass_measured, dtype = float ).reshape(-1,1)) 
     mass_cali = [round(num, 6) for num in mass_cali]

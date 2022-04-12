@@ -1,4 +1,4 @@
-import spectra_operations as so
+import toolsets.spectra_operations as so
 import pandas as pd
 import numpy as np
 import spectral_entropy as se

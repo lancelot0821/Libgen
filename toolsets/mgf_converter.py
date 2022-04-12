@@ -6,7 +6,7 @@ import spectral_entropy as se
 
 import numpy as np
 
-import spectra_operations as so
+import toolsets.spectra_operations as so
 
 sys.path.append('yuanyue_code')
 

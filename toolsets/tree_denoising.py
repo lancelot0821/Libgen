@@ -1,7 +1,7 @@
 import pandas as pd
 import subprocess
 import os
-import spectra_operations as so
+import toolsets.spectra_operations as so
 import numpy as np
 import random
 
@@ -69,6 +69,44 @@ def tree_denoising(df_location, output_folder, index, libraryname, tolerance1='4
     except subprocess.TimeoutExpired:
         print("timeout!!")
 
+def tree_denoising_cluster(df_location, output_folder, index, libraryname, tolerance1='40ppm', tolerance2='20ppm',
+                   typeofmsms='msms'):
+    try:
+        df = pd.read_csv(df_location)
+    except:
+        print("No valid")
+        exit()
+    instance = df.iloc[index]
+    mass, intensity = so.break_spectra(instance[typeofmsms])
+
+    raw_msms = pd.DataFrame({'mass': mass, 'intensity': intensity})
+    raw_msms.to_csv("temp_data/msms/%s%s%s.txt" % (str(instance.row_num), instance.key, libraryname),
+                    header=None, sep=" ", index=False)
+
+    if (instance['PRECURSORMZ']) <= 200:
+        tolerance = '0.02Da'
+    elif (instance['PRECURSORMZ']) >= 600:
+        tolerance = tolerance2
+    else:
+        #         tolerance = '20
+        tolerance = tolerance1
+
+    try:
+        p = subprocess.run(["/share/fiehnlab/users/fzkong/fragtree_calculation/sirius/bin/sirius", "-o", 'sirius_workspace/%s/%s%s%s%s' % (
+            output_folder, str(instance.row_num), instance.key, libraryname, tolerance),
+                            "-f", instance.Formula,
+                            "-z", str(instance.PRECURSORMZ),
+                            "--adduct", instance.adduct, "-2",
+                            "temp_data/msms/%s%s%s.txt" % (str(instance.row_num), instance.key, libraryname),
+                            "config", "--MS2MassDeviation.allowedMassDeviation", tolerance,
+                            "--MS2MassDeviation.standardMassDeviation", tolerance,
+                            "--NoiseThresholdSettings.maximalNumberOfPeaks", str(len(mass)),
+                            "formula"],
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                           # timeout = 600
+                           )
+    except subprocess.TimeoutExpired:
+        print("timeout!!")
 
 def readin_denoised_files(instance, output_folder, libraryname, tolerance1='40ppm', tolerance2='20ppm'):
     if (instance['PRECURSORMZ']) <= 200:
