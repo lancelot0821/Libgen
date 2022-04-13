@@ -1,5 +1,7 @@
 import numpy as np
-
+import warnings
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
 try:
     from .tools import match_peaks_in_spectra, match_peaks_with_mz_info_in_spectra
     from . import math_distance

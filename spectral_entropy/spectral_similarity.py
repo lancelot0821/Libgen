@@ -1,6 +1,8 @@
 import numpy as np
 from typing import Union
-
+import warnings
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
 try:
     from . import math_distance, ms_distance
     from .tools import clean_spectrum, match_peaks_in_spectra, normalize_distance

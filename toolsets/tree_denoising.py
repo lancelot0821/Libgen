@@ -14,7 +14,6 @@ def parallel_args(df_location, outputfoler, length, libraryname, tolerance1, tol
     tolerance1s = tolerance1 * length
     tolerance2s = tolerance2 * length
     typeofmsmss = typeofmsms * length
-
     return (zip(df_locations, outputfolers, indecies, librarynames, tolerance1s, tolerance2s, typeofmsmss))
 
 

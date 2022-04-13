@@ -10,6 +10,25 @@ import spectral_entropy as se
 import itertools
 import numpy as np
 import scipy.stats
+import warnings
+warnings.filterwarnings("ignore")
+import warnings
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
+
+def denoising_by_threshold(msms, threshold = 1, need_normalized = False):
+    mass_raw, intensity_raw = break_spectra(msms)
+    if need_normalized == True:
+        intensity_raw = [x/max(intensity_raw) for x in intensity_raw]
+    idx=[index for (index, number) in enumerate(intensity_raw) if number > threshold]
+    intensity_updated = [intensity_raw[i] for i in idx]
+    mass_updated = [mass_raw[i] for i in idx]
+    msms_updated = pack_spectra(mass_updated, intensity_updated)
+    return(msms_updated)
+
+
+
+
 def break_spectra(spectra):
     split_msms = re.split('\t|\n',spectra)
     intensity = split_msms[1:][::2]
@@ -130,11 +149,11 @@ def export_library(data_dup,output_location, typeofmsms='msms'):
         entry = entry + 'InChIKey: ' + row['InChIKey'] + '\n'
         entry = entry + 'Formula: ' + row['Formula'] + '\n'
         entry = entry + 'ExactMass: ' + str(row['ExactMass']) + '\n'
-        entry = entry + 'PRECURSORTYPE: ' + row['adduct'] + '\n'
-        entry = entry + 'Spectrum_type: ' + row['Spectrum_type'] + '\n'
-        entry = entry + 'RETENTIONTIME: ' + str(row['RETENTIONTIME']) + '\n'
+        entry = entry + 'PRECURSORTYPE: ' + row['Adduct'] + '\n'
+        entry = entry + 'Collision_enerty: ' + row['Collision_energy'] + '\n'
+        # entry = entry + 'RETENTIONTIME: ' + str(row['RETENTIONTIME']) + '\n'
         entry = entry + 'Comment: ' + str(row['Comment']) + '\n'
-        entry = entry + 'Num Peaks: ' + str(num_peaks(row[typeofmsms])) + '\n'
+        entry = entry + 'Num peaks: ' + str(num_peaks(row[typeofmsms])) + '\n'
         entry = entry + row[typeofmsms]
         # entry = entry +str(row['count'])
         entry = entry + '\n'
