@@ -1,6 +1,8 @@
 import numpy as np
 import scipy.stats
-
+import warnings
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
 
 def unweighted_entropy_distance(p, q):
     r"""

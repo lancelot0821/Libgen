@@ -1,5 +1,7 @@
 import numpy as np
-
+import warnings
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
 try:
     from . import tools_fast
 except Exception as e:

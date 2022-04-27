@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --job-name=fragmentation_tree_job_array
+#SBATCH --partition=production
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=20
+#SBATCH --export=ALL
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=fzkong@ucdavis.edu
+#SBATCH --output=job%j.out
+#SBATCH --error=job%j.err
+#SBATCH -t 5:00:00
+aklog
+pwd
+module load anaconda3/4.9.2
+source activate /share/fiehnlab/users/fzkong/conda-env
+cd /share/fiehnlab/users/fzkong/fragtree_calculation/
+# chmod +x /share/fiehnlab/software/xstate/build/bin/pymolcas
+#source /share/fiehnlab/software/xstate/.envre
+python entropy_search.py data_mona_common_updated.csv NIST_common_with_mona.csv NIST_common_with_Mona.msp 0.01 entropy_search_result.csv
+# cp /yourms/ /tmp/xstate
+# rm -r /tmp/
+unlog
+

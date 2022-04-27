@@ -3,6 +3,9 @@ from typing import Union
 
 from . import tools
 import scipy.stats
+import warnings
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
 
 
 def calculate_entropy(spectrum: Union[list, np.ndarray],
