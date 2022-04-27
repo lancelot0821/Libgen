@@ -4,10 +4,10 @@ import numpy as np
 import re
 import math
 import sys
-
+from molmass import Formula
 ionized_mass = {
-    '[M+H]+': 1.007276,
-    '[M-H]-': -1.007276,
+    '[M+H]+': 1.00727646677,
+    '[M-H]-': -1.00727646677,
     '[M+Na]+':22.989218,
     '[M+NH4]+':18.033823
 }
@@ -61,6 +61,27 @@ def precursor_mass_to_formula(mass, mass_error, addition):
     _calculate_formula(lo_mass, hi_mass, candidate_formula_array,
                        len(candidate_formula_array) - 1, result)
     return result
+
+
+
+def nl_mass_to_formula(mass, mass_error, precursor_formula):
+
+    lo_mass = mass - mass_error
+    hi_mass = mass + mass_error
+    precursor_data = precursor_formula.get_data()
+    formula_range = [range(x + 1) for x in precursor_data]
+    all_possible_candidate_formula = np.array(
+        list(itertools.product(*formula_range)), numpy_formula_format)
+    all_possible_mass = np.sum(
+        atom_mass_array * all_possible_candidate_formula, axis=1)
+    candidate_data = all_possible_candidate_formula[(lo_mass <= all_possible_mass) & (all_possible_mass <= hi_mass)]
+    result = []
+    for data in candidate_data:
+        formula = MolecularFormula(data)
+        result.append(formula)
+    return result
+
+
 
 
 def product_mass_to_formula(mass, mass_error, addition, precursor_formula):
@@ -117,7 +138,11 @@ class MolecularFormula(object):
         return string
 
     def from_string(self, key_string):
-        all_atom_nums = re.findall('([a-zA-Z]+)([0-9]+)', key_string)
+        f = Formula(key_string)
+        # f.composition()
+        all_atom_nums = []
+        for i in range(len(f.composition())):
+            all_atom_nums.append((f.composition()[i][0], f.composition()[i][1]))
         for atom_num in all_atom_nums:
             self[atom_num[0]] = int(atom_num[1])
         pass
@@ -137,9 +162,31 @@ def mass_to_formula(mass, mass_error, addition, precursor_formula=None):
     else:
         mol = MolecularFormula()
         mol.from_string(precursor_formula)
-        return product_mass_to_formula(mass, mass_error, addition, mol)
-
-
+        result = product_mass_to_formula(mass, mass_error, addition, mol)
+        return result
+def mass_to_formula_debug(mass, mass_error, addition, precursor_formula=None):
+    mass = float(mass)
+    mass_error = float(mass_error)
+    if precursor_formula is None:
+        return precursor_mass_to_formula(mass, mass_error, addition)
+    else:
+        mol = MolecularFormula()
+        mol.from_string(precursor_formula)
+        result = product_mass_to_formula(mass, mass_error, addition, mol)
+        for r in result:
+            print(r, r.get_mass())
+        # return result[0]
+def nl_to_formula(mass, mass_error, precursor_formula):
+    mass = float(mass)
+    mass_error = float(mass_error)
+    mol = MolecularFormula()
+    mol.from_string(precursor_formula)
+    result = nl_mass_to_formula(mass, mass_error, mol)
+    for r in result:
+        return(r.__str__())
+        break
+        # return(r)
+        # break
 if __name__ == "__main__":
     if len(sys.argv) == 4 or len(sys.argv) == 5:
         result = mass_to_formula(*sys.argv[1:])

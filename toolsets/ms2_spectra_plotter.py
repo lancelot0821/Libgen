@@ -28,7 +28,7 @@ import plotly.express as px
 # In[3]:
 
 
-def head_to_tail_plot(msms_1, msms_2, lower=None, upper=None):
+def head_to_tail_plot(msms_1, msms_2, lower=None, upper=None, identity = False):
     mass1, intensity1 = so.break_spectra(msms_1)
     mass1 = [float(x) for x in mass1]
     intensity1 = [float(x) for x in intensity1]
@@ -43,7 +43,11 @@ def head_to_tail_plot(msms_1, msms_2, lower=None, upper=None):
     d = {'m/z':mass2, 'intensity':intensity2}
 
     msms2 = pd.DataFrame(d)
-    max_val = np.max(msms2['intensity'])
+    if identity == True:
+        max_val = np.max(msms1['intensity'])
+    else:
+        max_val = np.max(msms2['intensity'])
+
     msms2["normalized_intensity"] = msms2['intensity'] / max_val * 100.0  # normalize intensity to percent
     msms2['inverse_normalized_intensity']=-msms2['normalized_intensity']
     

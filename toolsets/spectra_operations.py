@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-
+import yuanyue_code.mass_to_formula as mtf
 import re
 import pandas as pd
 import spectral_entropy as se
@@ -64,8 +64,13 @@ def convert_string_to_nist(msms):
 def normalized_entropy(msms):
     return(scipy.stats.entropy(convert_string_to_nist(msms)[:, 1]))
 
-def entropy_similarity_default(msms1, msms2, typeofmsms='msms'):
-    return(se.similarity(convert_string_to_nist(msms1), convert_string_to_nist(msms2), 'entropy', ms2_da = 0.05, need_clean_spectra = True, need_normalize_result = True))
+def entropy_similarity_default(msms1, msms2, typeofmsms='msms', threshold = 0.01):
+    # return(se.similarity(convert_string_to_nist(msms1), convert_string_to_nist(msms2), 'entropy', ms2_da = 0.01, need_clean_spectra = True, need_normalize_result = True))
+    return(se.similarity(convert_string_to_nist(msms1), convert_string_to_nist(msms2), 'entropy',
+                                     ms2_da = threshold, need_clean_spectra = True, need_normalize_result = True))
+
+
+
 def average_entropy_calculation(data_temp, typeofmsms = "msms"):
     if len(data_temp)==1:
         # print('you just cannot calculate entropy based on 1 spectrum!!!')
@@ -74,7 +79,7 @@ def average_entropy_calculation(data_temp, typeofmsms = "msms"):
         entropy_temp = []
         combinations_object =itertools.combinations(data_temp[typeofmsms], 2)
         for n in combinations_object:
-            entropy_temp.append(se.similarity(convert_string_to_nist(n[0]), convert_string_to_nist(n[1]), 'entropy', ms2_da = 0.05, need_clean_spectra = True, need_normalize_result = True))    
+            entropy_temp.append(se.similarity(convert_string_to_nist(n[0]), convert_string_to_nist(n[1]), 'entropy', ms2_da = 0.01, need_clean_spectra = True, need_normalize_result = True))
         return(sum(entropy_temp)/len(entropy_temp))
 
 def average_entropy_dataframe(data_pfp, typeofmsms):
@@ -135,7 +140,18 @@ def comparing_spectrum(msms1, msms2):
 #     mass_dr, intensity_dr = break_spectra(msms2)
 #     return(sum(intensity_dr)/sum(intensity_raw))
 
-
+def simple_denoising(instance, typeofmsms = 'msms', ms2_da = 0.01):
+    mass, intensity = so.break_spectra(instance[typeofmsms])
+    candidates = []
+    for mas in mass:
+        candidates.append(mtf.nl_to_formula(instance['PRECURSORMZ']-mas, ms2_da, instance['Formula']))
+    non_index = [i for i, val in enumerate(candidates) if val != None]
+    updated_mass = []
+    updated_intensity = []
+    for i in non_index:
+        updated_mass.append(mass[i])
+        updated_intensity.append(intensity[i])
+    return(pack_spectra(updated_mass, updated_intensity))
 
 
 
