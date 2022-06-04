@@ -22,7 +22,7 @@ def calculate_precursormz(formula, adduct):
         pmz = Formula(formula).isotope.mass+HacH_minus
     if(adduct=='[M-H2O-H]-'):
         pmz = Formula(formula).isotope.mass+H2OH_minus
-    if(adduct=='[M-H+Na+Na]-'):
+    if(adduct=='[M+FA-H]-'):
         pmz = Formula(formula).isotope.mass+FaH_minus
     if(adduct=='[M+Cl]-'):
         pmz = Formula(formula).isotope.mass+Cl_minus
@@ -30,6 +30,7 @@ def calculate_precursormz(formula, adduct):
         pmz
     except NameError:
         print("wrong adduct type is passed!")
+        print(adduct)
         pmz = np.nan
     return(round(pmz,4))
 def nl_calc(formula):
